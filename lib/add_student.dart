@@ -1,5 +1,5 @@
 import 'dart:math';
-
+import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -53,9 +53,18 @@ class _AddStudentState extends State<AddStudent> {
                           rollno: int.parse(rollController.text),
                           name: nameController.text,
                           marks: double.parse(marksController.text));
-                      //adding a student
-                      addStudentAndNavigateToHome(student, context);
+                      AwesomeDialog(
+                          context: context,
+                          dialogType: DialogType.success,
+                          animType: AnimType.topSlide,
+                          showCloseIcon: true,
+                          title: "Success!!!",
+                          desc: "Student added to the database!",
+                          btnOkOnPress: () {
+                            addStudentAndNavigateToHome(student, context);
+                          }).show();
                       //
+                      //adding a student
                     },
                     child: const Text("Add")),
                 ElevatedButton(
