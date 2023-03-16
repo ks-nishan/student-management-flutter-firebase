@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "389423632630",
+    "project_id": "student-management-flutt-e5a0a",
+    "storage_bucket": "student-management-flutt-e5a0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389423632630:android:65719f89f5bc0f4b749cd7",
+        "android_client_info": {
+          "package_name": "com.example.student_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389423632630-5livc6b485m46bggmglavp618vekdo4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjagvzTSdZdddso9iOO8aV6-yTmhx_ggU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389423632630-5livc6b485m46bggmglavp618vekdo4c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "389423632630-5jrufpnng2533gk7dqkmt44a6rln06i1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.studentManagement"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
